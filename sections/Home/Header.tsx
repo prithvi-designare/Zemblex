@@ -14,8 +14,8 @@ export const Header = () => {
           </span>
 
           <div className="flex flex-row gap-2.5">
-            <div className="flex flex-row items-center gap-2 flex-[1_0_0px] h-[48px]">
-              <span>Buy Now</span>
+            <div className="flex flex-row items-center gap-2.5 w-[200px] h-[48px] p-6 border rounded-[12px] justify-between">
+              <span className="text-base font-bold">Buy Now</span>
               <div className="w-[14px] h-[17px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ export const Header = () => {
                   </g>
                 </svg>
               </div>
-              <span>Explore More</span>
+              <span className="text-base font-bold">Explore More</span>
             </div>
           </div>
           <div className="flex flex-row gap-2">
