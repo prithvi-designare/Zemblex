@@ -18,7 +18,7 @@
     height: 100%;
     display: flex;
     gap: 8px;
-    /* animation : 40s scroll infinite linear; */
+    animation : 40s scroll infinite linear;
     position: relative;
     left: -250px
 }
